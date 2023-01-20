@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hazi Feladat</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend><h1>Derékszögű háromszög oldalhosszai</h1></legend>
+            <label for="a">Befogó 1: </label>
+            <input type="text"   id="a"><br>
+            <label for="b">Befogó 2: </label>
+            <input type="text"   id="b"><br>
+            <label for="atfogo">Átfogó: </label>
+            <input type="text" id="atfogo">
+            <br>
+            <br>
+            <button onclick="szerkesztheto()" >Megszerkeszthető</button>
+            <button onclick="szamok()" >Átfogó kiszámítása</button>
+            <br>
+            <p id="szerkesztheto"></p>
+        </fieldset>
+    </form>
+
+    
+    <script src="js.js"></script>
+</body>
+</html>
