@@ -1,7 +1,7 @@
-body{
+
+fieldset{
     background-color: bisque;
-}
-form{
-    margin: 5em;
-    border: 2em black;
+    box-shadow: 10px 10px 5px  orangered;
+    margin: 1em;
+    border-radius: 25px;
 }

@@ -12,9 +12,14 @@ function szerkesztheto(){
     var c = document.getElementById("atfogo").value;
 
     if (Math.pow(a,2)+Math.pow(b,2)==Math.pow(c,2)){
-        document.getElementById("szerkesztheto").innerHTML="Szerkeszhető";
+        alert("Szerkeszhető");
     }
     else{
-        document.getElementById("szerkesztheto").innerHTML="Nem szerkeszhető";
+        alert("Nem szerkeszhető");
     }
+}
+function veletlen(){
+    document.getElementById("a").value =Math.floor(Math.random()*100)+1;
+    document.getElementById("b").value = Math.floor(Math.random()*100)+1;
+    document.getElementById("atfogo").value =Math.floor(Math.random()*100)+1;
 }
